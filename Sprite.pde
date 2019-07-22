@@ -15,7 +15,7 @@ class Sprite
 
     for (int i = 0; i < 4; i++) 
     {
-      movingDown[i] = spritesheet.get(i * 51, 0, (i + 1)*51, 51);
+      movingDown[i] = spritesheet.get(i * 51, 0, 51, 51);
     }
   }
 
